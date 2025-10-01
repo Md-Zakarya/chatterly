@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import SearchInput from '../ui/SearchInput';
 import SearchResults from '../ui/SearchResults';
-import { useSearchViewModel } from '../../viewmodels/useSearchViewModel';
+import { useSearchViewModel } from '../../viewModels/useSearchViewModel';
 
 const UserSearch = ({ className = '', placeholder = "Search users to add as friends…" }) => {
   const searchRef = useRef(null);
